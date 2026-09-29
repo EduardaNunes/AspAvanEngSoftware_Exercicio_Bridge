@@ -15,4 +15,10 @@ class NakMuayAmadorTest {
         assertEquals(500.0f, nakMuay.calcularPremiacao(), 0.01f);
     }
 
+    @Test
+    void devePremiarComValorBaseSemNenhumaConfiguracao() {
+        NakMuayAmador nakMuay = new NakMuayAmador(500.0f);
+        assertEquals(500.0f, nakMuay.calcularPremiacao(), 0.01f);
+    }
+
 }

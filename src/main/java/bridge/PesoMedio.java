@@ -2,7 +2,7 @@ package bridge;
 
 public class PesoMedio implements CategoriaPeso{
 
-    public float percentualAumento() {
+    public float percentualBonusCategoria() {
         return 0.1f;
     }
 }

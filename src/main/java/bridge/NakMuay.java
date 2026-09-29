@@ -26,11 +26,11 @@ public abstract class NakMuay {
     }
 
     public void setNocautes(int newNocautes){
-        this.vitorias = newNocautes;
+        this.nocautes = newNocautes;
     }
 
     public void setDerrotas(int newDerrotas){
-        this.vitorias = newDerrotas;
+        this.derrotas = newDerrotas;
     }
 
     public float calcularBonusDesempenho() {
